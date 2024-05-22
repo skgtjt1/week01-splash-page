@@ -11,6 +11,7 @@
   height: 600px;
   border: 3px solid black;
   border-radius: 25px;
+  position: relative;
 }
 
 .topbox {
@@ -103,4 +104,12 @@
   /* background-color: violet; */
   padding-bottom: 20px;
   color: grey;
+}
+
+.logo {
+  position: absolute;
+  bottom: 30px;
+  right: 50px;
+  height: 200px;
+  width: 200px;
 }
