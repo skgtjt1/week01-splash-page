@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.roundedbox {
+  /* background-color: aqua; */
+  width: 950px;
+  height: 600px;
+  border: 2px solid black;
+  border-radius: 25px;
+}
+
+.topbox {
+  display: flex;
+  /* background-color: red; */
+  /* border: 2px solid black; */
+  height: 45%;
+  justify-content: center;
+  align-items: end;
+  padding-bottom: 30px;
+}
+
+.company {
+  display: flex;
+  flex-direction: column;
+  /* background-color: blue; */
+  height: fit-content;
+  width: 35%;
+  align-items: center;
+
+  /* flex-wrap: wrap; */
+}
+
+#toprow {
+  text-align: center;
+  font-weight: lighter;
+}
+
+#companytitle {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#softmotto {
+  text-align: center;
+  vertical-align: bottom;
+  font-weight: normal;
+}
+
+.bottombox {
+  display: flex;
+  justify-content: center;
+  /* background-color: green; */
+  height: 25%;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* background-color: brown; */
+  height: 100%;
+  width: 24%;
+}
+
+#addresstext {
+  font-size: 1.8rem;
+  text-align: left;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  /* background-color: orange; */
+  height: 100%;
+  width: 24%;
+}
+
+.contactinfo {
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+.copywritebox {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+  justify-content: center;
+  /* background-color: coral; */
+  height: 30%;
+  /* border: 2px solid black; */
+}
+
+.copywrite {
+  /* background-color: violet; */
+  padding-bottom: 20px;
+  color: grey;
+}
