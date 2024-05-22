@@ -4,12 +4,19 @@
   font-family: sans-serif;
 }
 
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 .roundedbox {
   /* background-color: aqua; */
-  margin: 6px;
+
   width: 950px;
   height: 600px;
-  border: 3px solid black;
+  border: 5px solid black;
   border-radius: 25px;
   position: relative;
 }
