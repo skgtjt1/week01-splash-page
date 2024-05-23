@@ -9,6 +9,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background-image: url("images/diagonal.avif");
 }
 
 .roundedbox {
@@ -19,6 +20,7 @@ body {
   border: 5px solid black;
   border-radius: 25px;
   position: relative;
+  background-color: white;
 }
 
 .topbox {
